@@ -1,0 +1,17 @@
+p{
+	color: black;
+	font-size: 40px;
+	font-family: Sans-serif;
+}
+h3{
+	color: green;
+	font-size: 25px;
+	font-family: Algerian;
+	border-style: solid;
+	border-radius: 90px;
+	border-color: white;
+	border-width: 5px;
+}
+body{
+	background-color: skyblue;
+}

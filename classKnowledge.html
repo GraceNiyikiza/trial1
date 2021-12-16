@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+	body{background-color: lightseagreen;border-radius: 20px;border: 4px white dashed;}
+	}
+	a{
+		text-decoration: none;
+	}
+	div li{float: right;}
+
+	div ol li{display: none;}
+	div ol ol li{display: none;}
+	div li a{float: right;border: white 2px solid;background-color: black;font-size: 35px;}
+div ul li:hover ol li {display:inline-block;padding: 0px;}
+div ul li:hover ol ol li {display:inline-block;padding: 0px;}
+li:hover{color: darkgreen;background-color: lightgrey;border-radius:20px;margin-left: 20px;}
+a{font-size: 60px;}
+li a{display: block;}
+li a:hover{color: blue;border-radius:20px;}
+#a{background-color: chocolate;color: white;border:2px white solid ;font-size: 35px;border-radius: 20px;width: 40%;height: 5%;text-align: center;}
+#b{background-color: chocolate;color: white;border:2px white solid ;font-size: 35px;border-radius: 20px;width: 50%;height: 5%;text-align: center;}
+#v{color: black;text-align: center;background-color: lightgrey;border:2px white solid ;font-size: 35px;border-radius: 20px;width: 80%;height: 3%;margin-top: 20px;padding-top: 20px;}
+#d{background-color: darkred;color: white;border:2px white solid ;font-size: 35px;border-radius: 20px;width: 90%;height: 3%;text-align: center;}
+#e{position: absolute;display: inline;}
+div{float: right;margin-left: 12px;}
+div ul{float: right;}
+div ol{float: right;}
+.g{display: inline-block;}
+.g ol{display: inline-block;position: absolute;margin: 40px;}
+.g ol ol{display: none;}
+.g ol ol{display: inline-block;}
+
+
+	</style>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+
+
+<div><br><br><br><h1 id="b">Transform the list into a drop down menu below</h1>
+			<ul id="e">
+		<li><a href="#">Home</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Products</a></li>
+			<li><a href="#">Contact Us</a></li>
+			<li class="g"><a href="#">Countries</a>
+				<ol><li><a href="#">Rwanda</a>
+					<ol><li><a href="#" target="self">Nyaruguru</a></li>
+				        <li><a href="#" target="self">Nyagatare</a></li>
+						<li><a href="#">Gatsibo</a></li></ol>
+					</li>
+					<li><a href="#" >Burundi</a></li>
+					<li><a href="#">S.Africa</a></li></ol>
+				</li></ul><br><br>
+			<h1 id="v"><br><br><br><br><br><br>You are free to use any colors of your choice<br>
+				Hint:<br>
+					You may need use the position property on the<br>
+				third level list items</h1>
+				<h1 id="d">This is participation activity you and you need to upload the page to Canvas</h1></div>
+
+<h1 id="a">Create the List below</h1>
+	<ul>
+		<li><a href="#">Home</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Products</a>
+				<ul><li><a href="#">phones</a>
+						<ul><li><a href="#">Techno</a></li>
+							<li><a href="#">iphone</a></li>
+							<li><a href="#">Samsung</a></li>
+						</ul></li>
+					<li><a href="#">cars</a></li>
+					<li><a href="#">Watches</a></li></ul>
+				<li><a href="#">Contact Us</a></li>
+					<li><a href="#">Countries</a>
+						<ul>
+					<li><a href="#">Rwanda</a>
+						<ul>
+							<li><a href="#">Nyarugenge</a></li>
+							<li><a href="#">Nyagatare</a></li>
+							<li><a href="#">Gatsibo</a></li>
+						</ul>
+
+					</li>
+					<li><a href="#">Burundi</a></li>
+					<li><a href="#">S.Africa</a></li>
+						</ul>
+					</li>
+			</ul>
+</body>
+</html>
